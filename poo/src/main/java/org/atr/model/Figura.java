@@ -43,7 +43,7 @@ public abstract class Figura {
         this.area = area;
     }
 
-    public abstract void calcularArea();
+    public abstract double calcularArea();
 
     void calcularPerimetro(){
 

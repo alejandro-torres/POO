@@ -4,7 +4,7 @@ public class Triangulo extends Figura{
 
 
     @Override
-    public void calcularArea() {
-
+    public double calcularArea() {
+    return 0;
     }
 }

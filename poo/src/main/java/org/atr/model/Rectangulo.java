@@ -1,7 +1,7 @@
 package org.atr.model;
 
 public class Rectangulo extends Figura{
-    
+
 
     private double altura,anchura;
 
@@ -33,8 +33,10 @@ public class Rectangulo extends Figura{
     }
 
     @Override
-    public void calcularArea() {
+    public double calcularArea() {
+        double x = altura * anchura;
         super.setArea(altura * anchura);
+        return x;
     }
 
     @Override

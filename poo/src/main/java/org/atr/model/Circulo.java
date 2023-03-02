@@ -35,8 +35,10 @@ public class Circulo extends Figura{
     }
 
     @Override
-    public void calcularArea() {
-        super.setArea(Math.PI * Math.pow(radio,2));
+    public double calcularArea() {
+        double x = Math.PI * Math.pow(radio,2);
+        super.setArea(x);
+       return x;
     }
 
     @Override
